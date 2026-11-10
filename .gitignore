@@ -1,9 +1,15 @@
+# 依赖与构建产物
 node_modules/
 dist/
-*.log
-.DS_Store
+
+# 密钥与本地配置（禁止入库）
 .env
 .env.*
 !.env.example
 .mcp.json
 .claude/settings.local.json
+
+# 工具缓存
+# .content-forge/ 自身的 .gitignore 约定：手写配置入库、运行产物留在本地，见其内部规则
+*.log
+.DS_Store
