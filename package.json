@@ -7,7 +7,7 @@
   "keywords": ["volcengine", "mcp", "ark", "seedream", "doubao", "tos", "asr", "tts", "search", "model-context-protocol"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/panmenglin/volcengine-api-mcp.git"
+    "url": "git+https://github.com/marrviin/volcengine-api-mcp.git"
   },
   "type": "module",
   "main": "dist/index.js",
