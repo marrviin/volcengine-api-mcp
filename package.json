@@ -1,10 +1,21 @@
 {
   "name": "volcengine-api-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "火山引擎 API 的 MCP Server（stdio）：方舟生图 / TTS / TOS 上传 / 语音转写 / 联网搜索",
   "license": "MIT",
   "author": "Marvin Pan",
-  "keywords": ["volcengine", "mcp", "ark", "seedream", "doubao", "tos", "asr", "tts", "search", "model-context-protocol"],
+  "keywords": [
+    "volcengine",
+    "mcp",
+    "ark",
+    "seedream",
+    "doubao",
+    "tos",
+    "asr",
+    "tts",
+    "search",
+    "model-context-protocol"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marrviin/volcengine-api-mcp.git"
@@ -15,7 +26,9 @@
   "bin": {
     "volcengine-api-mcp": "dist/index.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "engines": {
     "node": ">=20"
   },
