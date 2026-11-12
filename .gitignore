@@ -10,6 +10,7 @@ dist/
 .claude/settings.local.json
 
 # 工具缓存
-# .content-forge/ 自身的 .gitignore 约定：手写配置入库、运行产物留在本地，见其内部规则
+# .content-forge/（clip/director 等运行产物）全部留在本地
+.content-forge/
 *.log
 .DS_Store
