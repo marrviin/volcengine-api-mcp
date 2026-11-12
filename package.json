@@ -1,6 +1,6 @@
 {
   "name": "volcengine-api-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "火山引擎 API 的 MCP Server（stdio）：方舟生图 / TTS / TOS 上传 / 语音转写 / 联网搜索",
   "license": "MIT",
   "author": "Marvin Pan",
