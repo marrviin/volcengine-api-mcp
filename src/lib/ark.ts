@@ -6,7 +6,7 @@ const DOWNLOAD_TIMEOUT_MS = 120_000;
 const GENERATE_TIMEOUT_MS = 180_000;
 const MAX_REDIRECT_HOPS = 5;
 
-export const ARK_DEFAULT_IMAGE_MODEL = 'doubao-seedream-5-0-pro-260628'; // 5.0 pro，文字渲染与细节明显优于 flash
+export const ARK_DEFAULT_IMAGE_MODEL = 'doubao-seedream-5-0-flash';
 export const ARK_DEFAULT_SIZE = '1728x2304'; // 2K @ 3:4，与豆包 App 参考图原生分辨率一致
 
 export interface ArkImageOptions {

@@ -28,7 +28,7 @@ export const ttsUnidirectionalTool = {
   name: 'plan_tts_unidirectional',
   description:
     '火山豆包语音合成大模型-单向流式（端点 /api/v3/plan/tts/unidirectional，HTTP Chunked）。输入文本一次性合成音频，落盘并返回给 Agent。' +
-    '默认音色 zh_female_vv_uranus_bigtts（豆包 2.0 通用女声），音色 ID 从控制台>音色库获取；复刻音色需 resource_id=seed-icl-2.0 并传 model。' +
+    `默认音色 ${TTS_DEFAULT_SPEAKER}（流飞，男声），音色 ID 从控制台>音色库获取；复刻音色需 resource_id=seed-icl-2.0 并传 model。` +
     '需要环境变量 ARK_API_KEY。',
   inputSchema: {
     text: z.string().min(1).describe('待合成的文本'),

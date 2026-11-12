@@ -10,7 +10,7 @@ const PLAN_TTS_URL = 'https://openspeech.bytedance.com/api/v3/plan/tts/unidirect
 /** 语音控制台密钥使用的官方端点（Agent Plan 之外的接入方式，暂未暴露为工具参数） */
 export const CONSOLE_TTS_URL = 'https://openspeech.bytedance.com/api/v3/tts/unidirectional';
 
-export const TTS_DEFAULT_SPEAKER = 'zh_female_vv_uranus_bigtts'; // 豆包 2.0 通用女声
+export const TTS_DEFAULT_SPEAKER = 'zh_male_liufei_uranus_bigtts'; // 流飞，男声
 export const TTS_DEFAULT_RESOURCE_ID = 'seed-tts-2.0';
 export const TTS_DEFAULT_SAMPLE_RATE = 24_000;
 
